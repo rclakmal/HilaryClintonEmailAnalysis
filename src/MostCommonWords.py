@@ -5,18 +5,14 @@ Created on Jan 15, 2016
 '''
 
 import pandas as pd
-import sqlite3
-from IPython.lib.editorhooks import emacs
+import re
+from collections import Counter
 
-con = sqlite3.connect('../output/database.sqlite')
-sample = pd.read_sql_query("""
-SELECT p.Name Sender,
-       e.MetadataSubject Subject
-FROM Emails e
-INNER JOIN Persons p ON e.SenderPersonId=p.Id
-LIMIT 10""", con)
-print(sample)
+word_list = []
+email_dataframe = pd.read_csv("../output/Emails.csv")
+raw_text_list = email_dataframe['RawText'].tolist()
+for raw_text in raw_text_list:
+    word_list = word_list + re.findall('\w+',raw_text.lower())
+print Counter(word_list).most_common(20)
 
-# You can read a CSV file like this
-emailData = pd.read_csv("../output/Emails.csv")
-print(emailData)
+
