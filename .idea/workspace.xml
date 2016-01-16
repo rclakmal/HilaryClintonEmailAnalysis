@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20f21a5-8b84-4d3a-bf4f-1926680d7d15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MostTalkedCountries.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Aliases.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/EmailReceivers.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Emails.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Persons.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/database.sqlite" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/hashes.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MostCommonWords.py" afterPath="$PROJECT_DIR$/src/MostCommonWords.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MostTalkedCountries.py" afterPath="$PROJECT_DIR$/src/MostTalkedCountries.py" />
     </list>
     <ignored path="HilaryClintonEmailAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/MostCommonWords.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#52#71#0" expanded="true" />
               </folding>
@@ -43,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="100mostcommonwords.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="100mostcommonwords.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output/100mostcommonwords.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -57,10 +50,20 @@
         <entry file="file://$PROJECT_DIR$/src/MostTalkedCountries.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="25" selection-end-column="51" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mostcommoncountries.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output/mostcommoncountries.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.214876">
+              <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,8 +83,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MostTalkedCountries.py" />
         <option value="$PROJECT_DIR$/src/MostCommonWords.py" />
+        <option value="$PROJECT_DIR$/src/MostTalkedCountries.py" />
+        <option value="$PROJECT_DIR$/output/mostcommoncountries.csv" />
       </list>
     </option>
   </component>
@@ -171,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.MostCommonWords">
+  <component name="RunManager" selected="Python.MostTalkedCountries">
     <configuration default="false" name="MostCommonWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,6 +189,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HilaryClintonEmailAnalysis" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MostCommonWords.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MostTalkedCountries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HilaryClintonEmailAnalysis" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MostTalkedCountries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -311,12 +332,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.MostCommonWords" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MostTalkedCountries" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.MostCommonWords" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.MostTalkedCountries" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MostCommonWords" />
       </list>
     </recent_temporary>
   </component>
@@ -361,30 +384,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MostTalkedCountries.py">
+    <entry file="file://$PROJECT_DIR$/output/100mostcommonwords.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MostCommonWords.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#52#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/100mostcommonwords.csv">
+    <entry file="file://$PROJECT_DIR$/src/MostTalkedCountries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/mostcommoncountries.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.214876">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
